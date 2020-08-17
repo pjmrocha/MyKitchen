@@ -10,3 +10,5 @@ sudo mv wordpress/* .
 sudo rm -f latest.zip 
 sudo rmdir wordpress/
 
+sudo systemctl enable httpd
+sudo systemctl start httpd
