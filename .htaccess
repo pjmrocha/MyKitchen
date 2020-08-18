@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule "^wp-content/uploads/(.*)$" "https://mwp-bucket-for-media.s3.eu-west-2.amazonaws.com/uploads/$1" [R=301,L]

@@ -1,0 +1,15 @@
+{
+  "Id": "Policy1597773727901",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1597773641246",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::mwp-bucket-for-something",
+      "Principal": "*"
+    }
+  ]
+}
